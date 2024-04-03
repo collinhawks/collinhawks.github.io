@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/dist/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Collin Hawks" />
     <meta name="description" content="My personal portfolio project!" />
@@ -15,6 +15,37 @@
         text-rendering: optimizeLegibility;
       }
       
+      @media (max-width: 1024px) {
+        #app {
+          width: 100% !important;
+          display: grid;
+          place-items: center;
+          justify-content: center;
+
+        }
+        h1 {
+          font-size: 42px !important;
+          /* font-size: 100% !important; */
+          text-align: center;
+          padding: 4px !important;
+        }
+        h2 {
+          font-size: 36px !important;
+          /* font-size: 100% !important; */
+          text-align: center;
+        }
+        h3 {
+          font-size: 22px !important;
+          /* font-size: 100% !important; */
+          text-align: center;
+        }
+        h4 {
+          font-size: 14px !important;
+          /* font-size: 100% !important; */
+          text-align: center;
+        }
+      }
+
       .canvas-container {
         /* position: fixed; */
         top: 0;
@@ -63,8 +94,8 @@
     />
 
     <title>Portfolio</title>
-    <script type="module" crossorigin src="/dist/assets/index-C314VLCC.js"></script>
-    <link rel="stylesheet" crossorigin href="/dist/assets/index-BFTG1h01.css">
+    <script type="module" crossorigin src="/assets/index-DPxgMfkF.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DbtL9DlI.css">
   </head>
 
   <body>
